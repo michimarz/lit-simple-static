@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+<head>
+</head>
+<body>
+    <script type="module">
+        import { html, render } from 'https://unpkg.com/lit-html/lit-html.js?module';
+        
+        const myTemplate = html`
+        <h1>Hello World!</h1>
+        <p>This is a static HTML template.</p>
+        `;
+
+        render(myTemplate, document.body);
+    </script>  
+</body>
+</html>
